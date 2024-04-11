@@ -3,6 +3,8 @@ import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
 import "../styles/globals.css";
 import Head from "next/head";
 import ThirdwebGuideFooter from "../components/GitHubLink";
+import { Navbar } from "../components/Navbar";
+import Footer from "../components/Footer";
 
 
 // This is the chain your dApp will work on.
@@ -23,8 +25,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="Thirdweb, thirdweb Edition drop, how to make thirdweb nft drop, how to make nft collection thirdweb"
         />
       </Head>
+      <Navbar/>
       <Component {...pageProps} />
-      <ThirdwebGuideFooter />
+      {/* <ThirdwebGuideFooter /> */}
+      <Footer/>
     </ThirdwebProvider>
   );
 }

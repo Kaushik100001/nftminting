@@ -344,7 +344,7 @@ const [metadataLoading, setMetadataLoading] = useState(false);
                     <p>
                       <b>{numberClaimed}</b>
                       {" / "}
-                      {numberTotal || "1"}
+                      {numberTotal || "∞"}
                     </p>
                   ) : (
                     // Show loading state if we're still loading the supply

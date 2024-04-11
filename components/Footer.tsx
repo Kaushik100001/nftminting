@@ -17,10 +17,12 @@ const Footer = () => {
                 <div className={styles.links}>
                     <div>
                         <h2>Follow us</h2>
-                        <ul >
-                            <li className={styles.listInline}><a href="https://github.com/themesberg/flowbite">Github</a></li>
-                            <li className={styles.listInline}><a href="https://discord.gg/4eeurUVvTy">Discord</a></li>
-                        </ul>
+                       <ul className={styles.listInLine}>
+
+    <li><a>Github</a></li>
+    <li><a>Discord</a></li>
+</ul>
+
                     </div>
                     <div>
                         <h2>Legal</h2>
